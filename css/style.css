@@ -1,0 +1,287 @@
+
+
+
+body {
+    
+    color: #111;
+    background-color: white;
+}
+
+.navbar {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+    border-bottom: 1px solid #ddd;
+    background-color: rgb(0, 0, 0);
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: aliceblue;
+}
+
+
+
+.search-box {
+    width: 180px;
+    padding: 11px;
+    border: 1px solid #aaa;
+    font-size: 15px;
+}
+
+.logo {
+    font-size: 23px;
+    font-weight: bold;
+    letter-spacing: 4px;
+    color: white;
+}
+
+.nav-right {
+    display: flex;
+    gap: 30px;
+    color: antiquewhite;
+}
+
+.explore-button{
+background-color: tomato;
+color: black;
+font: bolder ;
+border:2px solid black;
+border-radius: 20px;
+
+
+
+}
+.nav-link {
+    color: #f0eeee;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.hero {
+    height: 580px;
+    display: flex;
+    align-items: center;
+    padding-left: 80px;
+    color: white;
+    background-image: url("https://images.unsplash.com/photo-1564501049412-61c2a3083791");
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-content{
+
+font-size: 30px;
+color: rgb(0, 0, 0);
+background-color: #11111155;
+text-align: center;
+}
+
+
+
+
+
+
+.rooms {
+    padding: 80px ;
+}
+
+.section-header {
+    margin-bottom: 40px;
+}
+
+.section-small {
+    font-size: 13px;
+    letter-spacing: 4px;
+    margin-bottom: 12px;
+}
+
+.section-title {
+    font-size: 40px;
+}
+
+.room-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.room-card {
+    border: 1px solid #ddd;
+    background-color: white;
+}
+
+.room-image {
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+}
+
+.room-content {
+    padding: 25px;
+}
+
+.room-small {
+    font-size: 12px;
+    letter-spacing: 3px;
+    color: #777;
+    margin-bottom: 15px;
+}
+
+.room-title {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.room-description {
+    line-height: 1.5;
+    margin-bottom: 18px;
+}
+
+.room-price {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.room-button {
+    padding: 11px 18px;
+    border: none;
+    background-color: #111;
+    color: white;
+}
+
+.reservation {
+    padding: 60px 6%;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+.reservation-heading {
+    font-size: 35px;
+}
+
+.reservation-form {
+    display: flex;
+    align-items: end;
+    gap: 15px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.form-label {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.form-input {
+    padding: 12px;
+    border: 1px solid #aaa;
+    background-color: white;
+}
+
+.search-button {
+    padding: 13px 20px;
+    border: none;
+    background-color: #111;
+    color: white;
+}
+
+.information {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    padding: 70px 6%;
+}
+
+.information-card {
+    border-top: 1px solid #aaa;
+    padding-top: 25px;
+}
+
+.information-title {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.information-text {
+    color: #666;
+    line-height: 1.6;
+}
+
+.about {
+    padding: 100px 15%;
+    background-color: #111;
+    color: white;
+    text-align: center;
+}
+
+.about-content {
+    max-width: 800px;
+    margin: auto;
+}
+
+.about-title {
+    font-size: 45px;
+    margin-bottom: 25px;
+}
+
+.about-text {
+    color: #ccc;
+    line-height: 1.7;
+    margin-bottom: 30px;
+}
+
+.about-button {
+    padding: 13px 22px;
+    border: none;
+    background-color: white;
+    color: #111;
+}
+
+.hotel-video {
+    padding: 80px 6%;
+    background-color: white;
+}
+
+.video-heading {
+    margin-bottom: 35px;
+}
+
+.video-title {
+    font-size: 40px;
+}
+
+.hotel-video-player {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    background-color: #111;
+}
+
+.footer {
+    padding: 50px 6%;
+    background-color: #111;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-title {
+    margin-bottom: 15px;
+}
+
+.footer-text {
+    color: #aaa;
+    margin-bottom: 8px;
+}
